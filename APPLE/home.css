@@ -1,0 +1,118 @@
+.wrap {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid red 5px;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(0, 255, 238) 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mainchoose {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Exterior {
+    display: flex;
+    border: solid green 5px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Exterior span {
+    color: rgb(139, 132, 132);
+}
+
+.colorbox {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid rgb(255, 0, 217) 5px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.item {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10% 10% 10% 10%;
+
+}
+
+.store {
+    display: flex;
+    border: solid green 5px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.storebox {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid rgb(255, 0, 217) 5px;
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.store span {
+    color: rgb(139, 132, 132);
+}
+.space{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid rgb(0, 200, 255) 5px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 400px;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(188, 180, 180, 0.457);
+    border-radius: 5% 5% 5% 5%;
+}
+.text p:nth-child(2n-1){
+    font-weight: 800;
+}
+.btn {
+    margin: 10px;
+}
+.network{
+    display: flex;
+    border: solid green 5px;
+    align-items: center;
+    flex-direction: column;
+}
+.network .item{
+    width: 400px;
+}
