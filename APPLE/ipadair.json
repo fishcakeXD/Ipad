@@ -26,7 +26,7 @@
     {
         "id":"A004",
         "color":"太空灰色",
-        "storage":"64GB",
+        "storage":"256GB",
         "network":"Wi-Fi+行動網路",
         "price":29900,
         "picture":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-space-gray?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1667585247239"
@@ -58,7 +58,7 @@
     {
         "id":"A008",
         "color":"藍色",
-        "storage":"64GB",
+        "storage":"256GB",
         "network":"Wi-Fi+行動網路",
         "price":29900,
         "picture":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1666991953754"
@@ -90,7 +90,7 @@
     {
         "id":"A012",
         "color":"粉紅色",
-        "storage":"64GB",
+        "storage":"256GB",
         "network":"Wi-Fi+行動網路",
         "price":29900,
         "picture":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-pink?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1666991954257"
@@ -122,7 +122,7 @@
     {
         "id":"A016",
         "color":"紫色",
-        "storage":"64GB",
+        "storage":"256GB",
         "network":"Wi-Fi+行動網路",
         "price":29900,
         "picture":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-purple?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1667585247674"
@@ -154,7 +154,7 @@
     {
         "id":"A020",
         "color":"星光色",
-        "storage":"64GB",
+        "storage":"256GB",
         "network":"Wi-Fi+行動網路",
         "price":29900,
         "picture":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-starlight?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1667585247381"
