@@ -6,7 +6,6 @@
     position: relative;
 }
 .imgbox{
-    border: solid red 5px;
     position: sticky;
     top: 0;
 }
@@ -120,4 +119,7 @@
     padding: 10px;
     align-items: center;
     justify-content: center;
+}
+.network span {
+    color: rgb(139, 132, 132);
 }

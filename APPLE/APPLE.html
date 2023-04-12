@@ -14,7 +14,9 @@
         <div class="row">
             <div class="img">
                 <div class="imgbox">
-                    <img src="https://fakeimg.pl/800x525/200">
+                    <img id="ipadimg"
+                        src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-unselect-gallery-1-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1654902977555"
+                        width="933" height="525">
                 </div>
 
 
@@ -26,7 +28,7 @@
                         <button class="btn" id="colorbtn" value="太空灰色">
                             <div class="item">
                                 <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-space-gray-2022?wid=208&amp;hei=208&amp;fmt=png-alpha&amp;.v=1668014174971"
-                                    alt="" width="50px" height="50px">
+                                    alt="" width="50px" height="50px" id="ipadimg">
                                 <p>太空灰色</p>
                             </div>
                         </button>
@@ -86,7 +88,7 @@
                     </div>
                 </div>
                 <div class="network">
-                    <h1>儲存裝置。 <span>選擇需要的儲存空間大小。</span></h1>
+                    <h1>連線能力。 <span>選擇連線方式。</span></h1>
                     <div class="storebox">
                         <div class="space">
                             <button class="btn" id="networkbtn" value="Wi-Fi">
@@ -118,7 +120,6 @@
                         <h1>NT$<sapn id="f_price"></sapn>起</h1>
                     </div>
                 </div>
-                <button id="btn">查詢</button>
             </div>
         </div>
     </div>
@@ -136,7 +137,14 @@
                 colorbtn.forEach((item) => {
                     item.addEventListener("click", function () {
                         let color = item.value
+                        let img = ipadArray.filter(item => item.color == color)
                         console.log(color)
+                        img.forEach(item => {
+                            let ipadimg = document.getElementById("ipadimg")
+                            ipadimg.src = ""
+                            ipadimg.src = item.picture
+                        })
+
                         let storebtn = document.querySelectorAll("#storebtn")
                         storebtn.forEach((item) => {
                             item.addEventListener("click", function () {
@@ -147,13 +155,13 @@
                                     item.addEventListener("click", function () {
                                         let network = item.value
                                         console.log(network)
-                                        let price = ipadArray.filter(item => item.color==color && item.storage == store && item.network == network)
+                                        let price = ipadArray.filter(item => item.color == color && item.storage == store && item.network == network)
                                         console.log(price)
-                                        price.forEach(item =>{
+                                        price.forEach(item => {
                                             let f_price = document.getElementById("f_price")
                                             f_price.innerHTML = `${item.price}`
                                         })
-                                        
+
                                     })
                                 })
                             })
